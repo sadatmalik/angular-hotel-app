@@ -20,6 +20,7 @@ export class ReservationService {
 
   addReservation(reservation: Reservation): void {
     this.reservations.push(reservation);
+    console.log(reservation);
   }
 
   deleteReservation(id: string): void {
